@@ -20,6 +20,8 @@
 		0C28759F1E3912A0008228B7 /* RoundBtn.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C28759E1E3912A0008228B7 /* RoundBtn.swift */; };
 		0C2875A11E39156A008228B7 /* AppTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C2875A01E39156A008228B7 /* AppTextField.swift */; };
 		0C2875A31E391879008228B7 /* AppBtn.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C2875A21E391879008228B7 /* AppBtn.swift */; };
+		0C34658D1E3EED030042F30E /* FeedVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C34658C1E3EED030042F30E /* FeedVC.swift */; };
+		0CF238381E43D9300011711E /* CircleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CF238371E43D9300011711E /* CircleView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -37,7 +39,9 @@
 		0C28759E1E3912A0008228B7 /* RoundBtn.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RoundBtn.swift; sourceTree = "<group>"; };
 		0C2875A01E39156A008228B7 /* AppTextField.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppTextField.swift; sourceTree = "<group>"; };
 		0C2875A21E391879008228B7 /* AppBtn.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppBtn.swift; sourceTree = "<group>"; };
+		0C34658C1E3EED030042F30E /* FeedVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FeedVC.swift; sourceTree = "<group>"; };
 		0C76A55F1E393FF700731758 /* SocialApp_Practice.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = SocialApp_Practice.entitlements; sourceTree = "<group>"; };
+		0CF238371E43D9300011711E /* CircleView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CircleView.swift; sourceTree = "<group>"; };
 		D0725C8167F0D56654EC0924 /* Pods-SocialApp_Practice.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SocialApp_Practice.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SocialApp_Practice/Pods-SocialApp_Practice.debug.xcconfig"; sourceTree = "<group>"; };
 		DA2252BFBD682E33694F5B99 /* Pods_SocialApp_Practice.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SocialApp_Practice.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		FE1150AE6FAD74902BCC9634 /* Pods-SocialApp_Practice.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SocialApp_Practice.release.xcconfig"; path = "Pods/Target Support Files/Pods-SocialApp_Practice/Pods-SocialApp_Practice.release.xcconfig"; sourceTree = "<group>"; };
@@ -102,6 +106,7 @@
 		0C2875541E38064B008228B7 /* View */ = {
 			isa = PBXGroup;
 			children = (
+				0CF238371E43D9300011711E /* CircleView.swift */,
 				0C2875991E390FAD008228B7 /* AppView.swift */,
 				0C28759E1E3912A0008228B7 /* RoundBtn.swift */,
 				0C2875A01E39156A008228B7 /* AppTextField.swift */,
@@ -114,6 +119,7 @@
 			isa = PBXGroup;
 			children = (
 				0C28753E1E380350008228B7 /* SignInVC.swift */,
+				0C34658C1E3EED030042F30E /* FeedVC.swift */,
 			);
 			name = Controller;
 			sourceTree = "<group>";
@@ -273,11 +279,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0C34658D1E3EED030042F30E /* FeedVC.swift in Sources */,
 				0C28759D1E391031008228B7 /* Constants.swift in Sources */,
 				0C28759A1E390FAD008228B7 /* AppView.swift in Sources */,
 				0C2875451E380350008228B7 /* SocialApp_Practice.xcdatamodeld in Sources */,
 				0C28759F1E3912A0008228B7 /* RoundBtn.swift in Sources */,
 				0C2875A31E391879008228B7 /* AppBtn.swift in Sources */,
+				0CF238381E43D9300011711E /* CircleView.swift in Sources */,
 				0C2875A11E39156A008228B7 /* AppTextField.swift in Sources */,
 				0C28753F1E380350008228B7 /* SignInVC.swift in Sources */,
 				0C28753D1E380350008228B7 /* AppDelegate.swift in Sources */,
