@@ -22,6 +22,7 @@
 		0C2875A31E391879008228B7 /* AppBtn.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C2875A21E391879008228B7 /* AppBtn.swift */; };
 		0C34658D1E3EED030042F30E /* FeedVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C34658C1E3EED030042F30E /* FeedVC.swift */; };
 		0CF238381E43D9300011711E /* CircleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CF238371E43D9300011711E /* CircleView.swift */; };
+		0CF2383A1E4427B50011711E /* PostCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CF238391E4427B50011711E /* PostCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -42,6 +43,7 @@
 		0C34658C1E3EED030042F30E /* FeedVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FeedVC.swift; sourceTree = "<group>"; };
 		0C76A55F1E393FF700731758 /* SocialApp_Practice.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = SocialApp_Practice.entitlements; sourceTree = "<group>"; };
 		0CF238371E43D9300011711E /* CircleView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CircleView.swift; sourceTree = "<group>"; };
+		0CF238391E4427B50011711E /* PostCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PostCell.swift; sourceTree = "<group>"; };
 		D0725C8167F0D56654EC0924 /* Pods-SocialApp_Practice.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SocialApp_Practice.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SocialApp_Practice/Pods-SocialApp_Practice.debug.xcconfig"; sourceTree = "<group>"; };
 		DA2252BFBD682E33694F5B99 /* Pods_SocialApp_Practice.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SocialApp_Practice.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		FE1150AE6FAD74902BCC9634 /* Pods-SocialApp_Practice.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SocialApp_Practice.release.xcconfig"; path = "Pods/Target Support Files/Pods-SocialApp_Practice/Pods-SocialApp_Practice.release.xcconfig"; sourceTree = "<group>"; };
@@ -111,6 +113,7 @@
 				0C28759E1E3912A0008228B7 /* RoundBtn.swift */,
 				0C2875A01E39156A008228B7 /* AppTextField.swift */,
 				0C2875A21E391879008228B7 /* AppBtn.swift */,
+				0CF238391E4427B50011711E /* PostCell.swift */,
 			);
 			name = View;
 			sourceTree = "<group>";
@@ -287,6 +290,7 @@
 				0C2875A31E391879008228B7 /* AppBtn.swift in Sources */,
 				0CF238381E43D9300011711E /* CircleView.swift in Sources */,
 				0C2875A11E39156A008228B7 /* AppTextField.swift in Sources */,
+				0CF2383A1E4427B50011711E /* PostCell.swift in Sources */,
 				0C28753F1E380350008228B7 /* SignInVC.swift in Sources */,
 				0C28753D1E380350008228B7 /* AppDelegate.swift in Sources */,
 			);
